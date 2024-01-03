@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './Login.css';
 
 function Login() {
   return (
-    <div>
-
+    <div className='login'>
+      {/* Spotify logo */}
+      {/* Login with Spotify Button */}
     </div>
   )
 }
