@@ -1,5 +1,7 @@
 import React from 'react';
 import './LoginView.css';
+import { loginUrl } from './spotify';
+
 
 function Login() {
   return (
@@ -8,7 +10,7 @@ function Login() {
       alt="" className='SpotifyLogo'
       />
       {/* eslint-disable-next-line */}
-      <a href="#">Login With Spotify</a>
+      <a href={loginUrl}>Login With Spotify</a>
 
     </div>
   )
