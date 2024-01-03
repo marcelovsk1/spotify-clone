@@ -1,13 +1,14 @@
 import React from 'react';
-import './Login.css';
+import './LoginView.css';
 
 function Login() {
   return (
-    <div className='login'>
+    <div className='loginView'>
+      <h1>Hi, I'm the login page</h1>
       {/* Spotify logo */}
       {/* Login with Spotify Button */}
     </div>
   )
 }
 
-export default Login
+export default Login;

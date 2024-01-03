@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+import LoginView from './LoginView';
 
 function App() {
   return (
@@ -7,6 +9,7 @@ function App() {
 
       {/* Spotify Logo */}
       {/* Login with Spotify button */}
+      <LoginView />
     </div>
   );
 }
