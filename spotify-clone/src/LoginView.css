@@ -1,0 +1,18 @@
+.loginView {
+  display: grid;
+  place-items: center;
+}
+
+.SpotifyLogo {
+  width: 10%;
+  height: 100%;
+}
+
+.loginView > a {
+  padding: 20px;
+  border-radius: 99px;
+  background-color: #21df64;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+}
