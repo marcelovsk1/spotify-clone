@@ -14,3 +14,5 @@ const scopes = [
   "user-top-read",
   "user-modify-playback-state"
 ];
+
+export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}`;
