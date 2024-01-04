@@ -4,4 +4,10 @@ useContext,
 useReducer }
 from "react";
 
-export const StateContext = createContext();
+export const DataLayerContext = createContext();
+
+export const DataLayer = ({ initialState, reducer, children }) => (
+  <DataLayerContext.Provider value={useReducer(initialState)}>
+    {children}
+  </DataLayerContext.Provider>
+);
