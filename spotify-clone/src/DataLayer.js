@@ -3,3 +3,5 @@ import React,
 useContext,
 useReducer }
 from "react";
+
+export const StateContext = createContext();
