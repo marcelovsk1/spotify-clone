@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import LoginView from './LoginView';
+import { getTokenFromUrl } from './spotify';
 
 function App() {
 
   // Run code based on a given condition
   useEffect(() => {
-    // code...
+    const token = getTokenFromUrl();
   }, []);
 
   return (
