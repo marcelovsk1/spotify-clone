@@ -2,7 +2,7 @@
   display: grid;
   place-items: center;
   height: 100vh;
-  background-color: rgb(123, 8, 123);
+  background: linear-gradient(to bottom, purple, black);;
 }
 
 .SpotifyLogo {
