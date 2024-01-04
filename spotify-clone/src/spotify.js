@@ -16,6 +16,9 @@ const scopes = [
 
 export const getTokenFromUrl = () => {
   return window.location.hash
+  .substring(1)
+  .split('&')
+  .reduce()
 }
 
 export const loginUrl = `${authEndpoint}?client_id=${clientId}
