@@ -31,12 +31,10 @@ function App() {
   return (
     <div className="App">
       {
-        token ? (
-          <h1>I am logged in!</h1>
-        ) : (
-      <LoginView />
-        )
-    }
+        token ?
+          <Player />
+         : <LoginView />
+        }
     </div>
   );
 }
