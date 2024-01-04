@@ -8,6 +8,9 @@ function App() {
   // Run code based on a given condition
   useEffect(() => {
     const token = getTokenFromUrl();
+    window.location.hash = "";
+
+
     console.log('I have a token', token);
   }, []);
 
