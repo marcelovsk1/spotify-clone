@@ -6,7 +6,7 @@ import { loginUrl } from './spotify';
 function Login() {
   return (
     <div className='loginView'>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png"
+      <img src="https://imagensfree.com.br/wp-content/uploads/2021/11/logo-spotify-verde-PNG.png"
       alt="" className='SpotifyLogo'
       />
       {/* eslint-disable-next-line */}
