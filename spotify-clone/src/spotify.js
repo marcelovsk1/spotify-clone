@@ -18,7 +18,9 @@ export const getTokenFromUrl = () => {
   return window.location.hash
   .substring(1)
   .split('&')
-  .reduce()
+  .reduce((initial, item) => {
+    let parts = item.split('=')
+  })
 }
 
 export const loginUrl = `${authEndpoint}?client_id=${clientId}
