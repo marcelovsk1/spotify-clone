@@ -1,15 +1,3 @@
-// eslint-disable-next-line no-unused-vars
-const reducer = (state, action) => {
-  console.log(action);
+import React, { createContext, useContext, useReducer } from "react";
 
-  switch(action.type) {
-    case 'SET_USER':
-      return {
-        ...state,
-        user: action.user
-      };
-    // adicione um caso padrão aqui para ações não tratadas
-    default:
-      return state;
-  }
-}
+export const DataLayerContext =({ initialState, reducer, children })
